@@ -35,7 +35,7 @@ class News_model extends CI_Model {
 
                 //return $this->db->insert('sp20_news', $data);
 
-                if($this->db->insert('sp20_news', $data)){//return slug - sennd to view page
+                if($this->db->insert('sp20_news', $data)){//return slug - send to view page
                         return $slug;
                 }else{//return false
                         return false;
