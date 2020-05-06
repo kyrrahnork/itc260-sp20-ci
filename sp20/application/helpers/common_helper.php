@@ -111,4 +111,15 @@ if(!function_exists('bootswatchFeedback'))
 		return $myReturn; //data passed back for printing
 	} 
 
+	if(!function_exists('makeLinks'))
+	{
+		function makeLinks($nav)
+		{
+			var_dump($nav);
+			die;
+			
+			//return 'is this working';
+		}
+	}//end makeLinks
+
 }#end bootswatchFeedback()
